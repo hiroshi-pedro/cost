@@ -1,0 +1,57 @@
+.master {
+    text-align: center;
+    width: 100%;
+}
+
+.titles {
+    margin: 2em 0;
+}
+
+.titles h1 {
+    color: #ffbb33;
+    background-color: #222;
+    display: inline-block;
+    padding: 3px 7px;
+    margin-bottom: 10px;
+}
+
+.titles p {
+    color: #7b7b7b;
+    margin-bottom: 1.5em;
+    font-size: 1.3em;
+}
+
+.list {
+    width: 100%;
+}
+
+.list ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.list li {
+    margin: 1.5em 1.5em;
+}
+
+.list li a{
+    text-align: center;
+    color: #222;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 7px;
+    display: block;
+}
+
+.list li:hover{
+    background-color: #222;
+    border-radius: 5px;
+} 
+
+.list li a:hover {
+    color: #ffbb33;
+}

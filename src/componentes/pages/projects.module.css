@@ -1,0 +1,32 @@
+.project_container {
+    padding: 2em;
+    width: 100%;
+  }
+  
+  .title_container {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1em;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .title_container {
+      margin-bottom: 2em;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+    }
+
+    .project_container {
+      padding: 2em 1em;
+      width: 100%;
+    }
+
+    .btnP {
+      margin-top: 1em;
+    }
+  }
+
